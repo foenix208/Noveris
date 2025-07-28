@@ -11,10 +11,10 @@ module.exports = async (bot, message) => {
     try
     {
         let command = require(`../Commands/${commandName}`)
+        command.run(bot,message,argv)
     }catch(error){
         return message.reply(`❌ La commande \`${commandName}\` n'existe pas.`)
     }
     //if(!command) return message.reply(`La commande ${commandName} n'existe pas`)
     
-    command.run(bot,message,argv)
 }
