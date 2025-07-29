@@ -1,2 +1,3 @@
 # Noveris
-Noveris bot discord pour Crystergo
+Noveris bot discord pour Cryz
+tergo
